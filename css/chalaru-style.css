@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.sub-head-text {
+  color: #888888;
+}
+
+.left-col-text {
+  padding-right: 12rem;
+}
+
+.left-col-link {
+  padding-right: 3rem;
+}
+
+.seemore-link {
+  text-decoration: none;
+  color: #3100a6;
+}
+
+.explore-highlight {
+  color: #d47f3e;
+  font-size: 3em;
+}
+
+.book-your-trip {
+  background-color: #4f0ee8;
+  color: white;
+  border-radius: 12px;
+}
+
+.book-your-trip:hover {
+  color: white;
+  background-color: #3100a6;
+}
