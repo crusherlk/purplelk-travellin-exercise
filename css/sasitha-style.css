@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.sub-heading {
+  color: #959398;
+  font-size: 1.15rem;
+}
+
+.card-makeup {
+  width: 22rem;
+}
+
+.img-makeup {
+  border-radius: 1.2rem;
+  height: 19rem;
+}
+
+.card-price {
+  color: #0ebb6a;
+}
+
+.card-subheading {
+  color: #959398;
+}
+
+.card-stars {
+  color: #dabc15;
+}
+
+.card-review-text {
+  font-size: 0.7rem;
+  color: #959398;
+}
+
+.card-days {
+  font-size: 0.85rem;
+}
+
+.button-makeup {
+  border-radius: 0.8rem;
+  border-color: #bc94e5;
+}

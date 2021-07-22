@@ -34,3 +34,56 @@ body {
   color: white;
   background-color: #3100a6;
 }
+
+.imgcollage {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.collage-image-top {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 200px;
+  grid-gap: 8px;
+}
+
+.collage-image-bot {
+  justify-content: center;
+  padding-top: 8px;
+  display: grid;
+  grid-template-columns: 400px 200px;
+  grid-template-rows: 400px;
+  grid-gap: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-col-text {
+    padding-right: 0rem;
+  }
+
+  .book-your-trip-md {
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+
+  .collage-image-top {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-template-rows: 150px;
+    grid-gap: 8px;
+  }
+
+  .collage-image-bot {
+    justify-content: center;
+    padding-top: 8px;
+    display: grid;
+    grid-template-columns: 300px 150px;
+    grid-template-rows: 300px;
+    grid-gap: 8px;
+  }
+}

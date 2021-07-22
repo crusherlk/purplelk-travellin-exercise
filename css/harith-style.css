@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#trip-category-text {
+  margin-bottom: 4rem;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .carousel {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carousel .card {
+  line-height: 250px;
+  text-align: center;
+  color: #fff;
+  margin: 20px 0;
+
+  border: none;
+
+  max-height: 250px;
+}
+
+.carousel-img {
+  border-radius: 50%;
+  margin-top: 40%;
+}
+.carousel-head {
+  margin-top: 65%;
+  font-size: 1.2rem;
+  margin-right: 2.2rem;
+  color: #1b1b1b;
+}
+.carousel-body {
+  text-align: left;
+}
+.carousel-text {
+  color: #868086;
+  size: 1px;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 25px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  margin: o 5px;
+  border: 2px solid #3100a6 !important;
+  transition: all 0.3s ease;
+}
+.owl-dot:hover,
+.owl-dot.active {
+  background: #3100a6 !important;
+}
+
+#carousel-container {
+  margin-bottom: 3rem;
+}
